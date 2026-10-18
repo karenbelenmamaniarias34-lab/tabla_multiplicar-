@@ -47,11 +47,9 @@
   <script>
     var contenedor = document.getElementById("contenedor");
 
-    // tablas del 1 al 9
     for (var i = 1; i <= 9; i++) {
       var tabla = document.createElement("table");
 
-      // multiplicamos del 1 al 10
       for (var j = 1; j <= 10; j++) {
         var fila = document.createElement("tr");
         var celda = document.createElement("td");
